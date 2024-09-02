@@ -8,80 +8,40 @@
     <!-- CSS LOCAL -->
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/personagens.css">
-
+    <link rel="stylesheet" href="css/responsividade.css">
 </head>
 <body>
-
     <div class="container-header">
-
         <nav>
-
             <div class="logodosite">
-
-                <img src="assets/starwars-removebg-preview.png" alt="" >
-
+                <img src="assets/starwars-removebg-preview.png" alt="Logo Star Wars">
             </div>
             <div class="api-texto">
-
                 <h4>API</h4>
-
             </div>
-            
         </nav>
-        
     </div>
 
-
-
     <div class="container">
-
         <div class="container-personagens">
-
             <div class="container-titulo">
-
                 <div class="icone-pre-titulo">
-
-                    <img src="assets/darth-vader-50 (1).png" alt="icone-luce skywalker">
-    
+                    <img src="assets/darth-vader-50 (1).png" alt="Ícone Darth Vader">
                 </div>
-    
                 <div class="titulo-personagens">
-    
                     <h1 style="font-weight: 600;">PERSONAGENS</h1>
-                    
                 </div>
-    
                 <div class="icone-pos-titulo">
-    
-                    <img src="assets/r2-d2-50 (1).png" alt="icone r2-d2">
-    
+                    <img src="assets/r2-d2-50 (1).png" alt="Ícone R2-D2">
                 </div>
-
             </div>
 
-            
             <div class="grade-personagens">
-
-                <ol class="lista-personagens">
-
-                    <li class="personagem">
-                        <div class="numero">#00</div>
-                        <div class="nome">Luke Skywalker</div>
-                        <div class="altura">altura: </div>
-                        <div class="altura-valor">172</div>
-                        <div class="peso">peso</div>
-                        <div class="peso-valor">77</div>
-                        <div class="genero"></div>
-                        <div class="genero-valor">male</div>
-
-                    </li>
-
+                <ol class="lista-personagens" id="lista-personagem">
+                    <!-- Personagens serão carregados dinamicamente aqui -->
                 </ol>
-
             </div>
-
         </div>
-
     </div>
 
     <script src="js/script.js"></script>
