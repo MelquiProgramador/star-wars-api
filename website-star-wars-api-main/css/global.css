@@ -1,0 +1,49 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.container-header {
+    padding-top: 5%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav {
+    background-color:#9e0000;
+    border-radius: 81px;
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+    width: 75%;
+    height: 20%;
+}
+
+.logodosite img {
+    width: 10rem;
+    height: 10rem;
+    align-items: center;
+    align-content: center;
+}
+
+.api-texto h4 {
+    padding-top: 110%;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
