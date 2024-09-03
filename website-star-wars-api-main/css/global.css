@@ -51,11 +51,13 @@ nav {
     justify-content: flex-end;
     align-items: flex-end;
     align-content: flex-end;
+    padding-left: 3%;
 }
 
 .imagem-r8 img {
-    width: 6rem;
-    height: 6rem;
+    
+    width: 5rem;
+    height: 5rem;
 }
 
 .logo-e-api {
@@ -89,9 +91,10 @@ nav {
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
+    padding-right: 3%;
 }
 
 .imagem-bb8 img {
-    width: 6.7rem;
-    height: 6.7rem;
+    width: 5rem;
+    height: 5rem;
 }

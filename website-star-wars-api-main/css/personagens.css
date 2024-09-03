@@ -50,6 +50,8 @@ margin-right: 0px;
 padding-right: 0px;
 
     word-wrap: break-word;
+
+    
     
 }
 
@@ -94,13 +96,13 @@ padding-right: 0px;
   background: rgba(221, 221, 221, 0.93);
   padding: 1rem;
   border-radius: 1rem;
-  
-  
+
+  align-content: stretch;
 }
 
 .personagem .numero {
     text-align: end;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 600;
     color: #000;
     opacity: 80%;
@@ -111,13 +113,15 @@ padding-right: 0px;
 .personagem .nome {
   padding: 0;
   margin: 0;
-  font-weight: 600;
+  font-weight: 900;
   text-align: center;
   font-size: 20px;
   
   text-align: center;
   align-content: center;
   align-items: center;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
 
@@ -190,17 +194,25 @@ margin-bottom: 0.2rem;
 
 .altura {
   width: 50%;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 540;
+  font-size: 18px;
+  padding-left: 0.4rem;
+
 }
 
 .peso {
   width: 50%;
-  font-weight: 500;
+  font-weight: 540;
+  font-size: 18px;
+  padding-left: 0.4rem;
+
 }
 .genero {
   width:50%;
-font-weight: 500;
+  font-weight: 540;
+  font-size: 18px;
+  padding-left: 0.4rem;
+
 }
 
 

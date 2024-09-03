@@ -1,4 +1,10 @@
 @media only screen and (min-width: 1000px){
+
+    .personagem {
+      
+        align-content: stretch;
+      }
+
     .lista-personagens {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         width: 100%;
@@ -19,30 +25,47 @@
     }
 
     .titulo-personagens {
+        font-weight: 100;
+        justify-content: flex-start;
+        text-align: start;
+    }
+
+    .titulo-personagens {
         font-size: 15px;
     }
 
     .personagem .nome {
         font-size: 25px;
+        font-weight: 900;
+
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .personagem .numero {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .altura {
         padding-left: 0.4rem;
         font-size: 1.5em;
+        font-weight: 540;
+
     }
 
     .peso {
         padding-left: 0.4rem;
+        font-weight: 540;
+
         font-size: 1.5em;
     }
     
     .genero {
         padding-left: 0.4rem;
         font-size: 1.5em;
+        font-weight: 540;
+
     }
+
+    
 
 
     .altura-valor {
@@ -54,6 +77,9 @@
         padding: 0.25rem 0 0.30rem 0;
         
         width: 50%;
+
+        font-size: 1.2em;
+        font-weight: 540;
       }
       
       .peso-valor {
@@ -68,6 +94,9 @@
         align-items: center;
         
         width: 50%;
+
+        font-size: 1.2em;
+        font-weight: 540;
       }
       
       .genero-valor {
@@ -79,6 +108,9 @@
         color: white;
         padding: 0.25rem 0 0.30rem 0;
         width: 50%;
+
+        font-size: 1.2em;
+        font-weight: 540;
       }
 
     /* global css */
