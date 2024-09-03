@@ -2,8 +2,6 @@
     width: 100%;
     height: 100%;
 
-    background-color: black;
-
     display: flex;
     justify-content: center;
 }
@@ -17,7 +15,7 @@ margin-top: 1.5rem;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 
-    background: rgba(221, 221, 221, 0.93);
+    background: rgba(221, 221, 221, 1);
 
     width: 90%;
     height: 100%;
@@ -33,9 +31,9 @@ margin-top: 1.5rem;
     width: 100%;
     margin: 0 0 0 0 ;
     padding: 0 0 0 0;
-padding-bottom: 0.5rem;
-
-padding-top: 0.5rem;
+    
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 
@@ -67,7 +65,7 @@ padding-right: 0px;
     align-items: center;
     justify-content: center;
     align-content: center;
-    
+
 }
 
 .icone-pre-titulo img {
@@ -193,6 +191,7 @@ margin-bottom: 0.2rem;
 .altura {
   width: 50%;
   font-weight: 500;
+  font-size: 15px;
 }
 
 .peso {
@@ -211,6 +210,7 @@ font-weight: 500;
   background: #9E0000;
   border-radius: 50px;
   color: white;
+
   padding: 0.15rem 0 0.15rem 0;
   
   width: 50%;
@@ -224,7 +224,9 @@ font-weight: 500;
   background: #9E0000;
   border-radius: 50px;
   color: white;
+
   padding: 0.15rem 0 0.15rem 0;
+
   align-items: center;
   
   width: 50%;
@@ -237,13 +239,16 @@ font-weight: 500;
   background: #9E0000;
   border-radius: 50px;
   color: white;
+
   padding: 0.15rem 0 0.15rem 0;
+
   width: 50%;
 }
 
 .botao-personagem {
   display: flex;
   justify-content: center;
+  
   width: 100%;
 }
 
@@ -273,4 +278,21 @@ font-weight: 500;
   box-shadow: 3px 5px 3px -1px rgba(0,0,0,0.99);
 -webkit-box-shadow: 3px 5px 3px -1px rgba(0,0,0,0.99);
 -moz-box-shadow: 3px 5px 3px -1px rgba(0,0,0,0.99);
+}
+
+.vermais:hover {
+  background-color: #5f0000;
+  cursor: pointer;
+  
+}
+
+.texto-vermais {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+  color: white;
+}
+
+.vermais:hover + .texto-vermais {
+  display: inline;
 }

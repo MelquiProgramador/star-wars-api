@@ -1,5 +1,137 @@
 @media only screen and (min-width: 1000px){
     .lista-personagens {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
     }
+    .container-header {
+        padding-top: 1%;
+    }
+
+    .icone-pre-titulo img {
+        padding: 0 0 0 0;
+        width: 40px;
+    }
+    
+    .icone-pos-titulo img {
+      margin:0 0 0 0;
+        padding-left: 0%;
+        width: 40px;
+    }
+
+    .titulo-personagens {
+        font-size: 15px;
+    }
+
+    .personagem .nome {
+        font-size: 25px;
+    }
+    .personagem .numero {
+        font-size: 18px;
+    }
+
+    .altura {
+        padding-left: 0.4rem;
+        font-size: 1.5em;
+    }
+
+    .peso {
+        padding-left: 0.4rem;
+        font-size: 1.5em;
+    }
+    
+    .genero {
+        padding-left: 0.4rem;
+        font-size: 1.5em;
+    }
+
+
+    .altura-valor {
+        display: flex;
+        justify-content: space-around;
+        background: #9E0000;
+        border-radius: 50px;
+        color: white;
+        padding: 0.25rem 0 0.30rem 0;
+        
+        width: 50%;
+      }
+      
+      .peso-valor {
+        display: flex;
+      
+        justify-content: space-around;
+      
+        background: #9E0000;
+        border-radius: 50px;
+        color: white;
+        padding: 0.15rem 0 0.15rem 0;
+        align-items: center;
+        
+        width: 50%;
+      }
+      
+      .genero-valor {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #9E0000;
+        border-radius: 50px;
+        color: white;
+        padding: 0.15rem 0 0.15rem 0;
+        width: 50%;
+      }
+
+    /* global css */
+
+    .imagem-r8 {
+        display: inline-flex;
+        align-items: start;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    
+    .imagem-r8 img {
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    .logo-e-api {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .logodosite img {
+        width: 10rem;
+        height: 10rem;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .api-texto h4 {
+        padding-top: 110%;
+        color: white;
+        text-align: center;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        align-content: flex-end;
+        align-items: flex-end;
+        font-size: 24px;
+    }
+    
+    .imagem-bb8 {
+        display: inline-flex;
+        align-items: start;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    
+    .imagem-bb8 img {
+        width: 9.7rem;
+        height: 9.7rem;
+    }
+
 }
