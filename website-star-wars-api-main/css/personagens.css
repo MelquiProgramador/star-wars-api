@@ -39,7 +39,7 @@ margin-top: 1.5rem;
 
 .titulo-personagens {
     font-size: 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Paytone One', Tahoma, Geneva, Verdana, sans-serif;
 
     justify-content: center;
     align-items: center;
@@ -248,7 +248,7 @@ font-weight: 500;
 .botao-personagem {
   display: flex;
   justify-content: center;
-  
+
   width: 100%;
 }
 
