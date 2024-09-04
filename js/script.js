@@ -20,7 +20,11 @@ function convertPersonagemToList(personagem, index) {
                 <div class="genero">Gênero:</div>
                 <div class="genero-valor">${personagem.gender}</div>
             </div>
-            <div class="botao-personagem"><button class="vermais">Ver Mais</button></div>
+            <div class="botao-personagem">
+
+            <button class="vermais" onclick="verMais(this)" href="">Ver Mais</button>
+
+            </div>
         </li>
     `;
 }
